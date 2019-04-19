@@ -1,0 +1,36 @@
+FUEL_COST= The cost of fuel for the simulation as any decimal value
+NUMBER_OF_FLIGHTS= The total number of flights to simulate as an integer value
+SMALL_PLANE_SEAT_PRICE= The seat price per section on the small size plane in
+                        a pipe separated value structure of 
+                        {econ price}|{econ plus price}|{business price}|{first class price}
+                        where each is any decimal value
+MEDIUM_PLANE_SEAT_PRICE=The seat price per section on the medium size plane in
+                        a pipe separated value structure of 
+                        {econ price}|{econ plus price}|{business price}|{first class price}
+                        where each is any decimal value
+LARGE_PLANE_SEAT_PRICE=The seat price per section on the large size plane in
+                        a pipe separated value structure of 
+                        {econ price}|{econ plus price}|{business price}|{first class price}
+                        where each is any decimal value
+SMALL_PLANE_SEAT_MAX_PER_SECTION= Maximum seats per each section of a small plane
+                                  formatted as 
+                                  {econ max}|{econ plus max}|{business max}|{first class max}
+                                  where each is a positive integer value
+MEDIUM_PLANE_SEAT_MAX_PER_SECTION= Maximum seats per each section of a medium plane
+                                   formatted as 
+                                   {econ max}|{econ plus max}|{business max}|{first class max}
+                                  where each is a positive integer value
+LARGE_PLANE_SEAT_MAX_PER_SECTION= Maximum seats per each section of a large plane
+                                  formatted as 
+                                  {econ max}|{econ plus max}|{business max}|{first class max}
+                                  where each is a positive integer value
+SMALL_PLANE_MAX_RANGE= Maximum range between airports for a small plane to be dispatched
+                       as a positive integer
+MEDIUM_PLANE_MAX_RANGE= Maximum range between airports for a medium plane to be dispatched
+                        as a positive integer
+SENIOR_PILOT_PAY= Cost of a senior level pilot for a single flight as a decimal value
+MIDLEVEL_PILOT_PAY= Cost of a midlevel level pilot for a single flight as a decimal value
+JUNIOR_PILOT_PAY= Cost of a junior level pilot for a single flight as a decimal value
+PREFERRED_AIRCRAFT_SIZE= Aircraft size/range to prefer when generating the flights in 
+                         the simulation as one of S for small, M for medium, L for large, and 
+                         n for none
